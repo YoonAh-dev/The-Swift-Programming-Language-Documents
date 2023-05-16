@@ -50,3 +50,15 @@ extension Stack {
         return nil
     }
 }
+
+extension Stack: SuffixableContainer {
+    func suffix(_ size: Int) -> Stack {
+        var result = Stack()
+
+        for index in (count - size)..<count {
+            result.append(self[index])
+        }
+
+        return result
+    }
+}

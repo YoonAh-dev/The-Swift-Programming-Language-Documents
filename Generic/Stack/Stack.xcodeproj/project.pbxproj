@@ -11,6 +11,7 @@
 		B57225E12A12204C0016B69C /* IntStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57225E02A12204C0016B69C /* IntStack.swift */; };
 		B57225E32A1222050016B69C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57225E22A1222050016B69C /* Stack.swift */; };
 		B57225E72A132BBC0016B69C /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57225E62A132BBC0016B69C /* Container.swift */; };
+		B57225E92A1353F50016B69C /* SuffixableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57225E82A1353F50016B69C /* SuffixableContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		B57225E02A12204C0016B69C /* IntStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntStack.swift; sourceTree = "<group>"; };
 		B57225E22A1222050016B69C /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B57225E62A132BBC0016B69C /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		B57225E82A1353F50016B69C /* SuffixableContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixableContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B57225E62A132BBC0016B69C /* Container.swift */,
+				B57225E82A1353F50016B69C /* SuffixableContainer.swift */,
 			);
 			path = AssociatedType;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57225E12A12204C0016B69C /* IntStack.swift in Sources */,
+				B57225E92A1353F50016B69C /* SuffixableContainer.swift in Sources */,
 				B57225E72A132BBC0016B69C /* Container.swift in Sources */,
 				B57225E32A1222050016B69C /* Stack.swift in Sources */,
 				B51AEBBB2A10E04C00EB9107 /* main.swift in Sources */,
