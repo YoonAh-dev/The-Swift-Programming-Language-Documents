@@ -24,3 +24,28 @@ if let index = stringStack.findIndex(of: "hello!") {
 } else {
     print("없습니다.")
 }
+
+
+// Stack<String>과의 비교를 위해서 Array가 Container를 준수하도록 합니다.
+
+extension Array: Container { }
+
+var stackOfStrings = Stack<String>()
+stackOfStrings.push("uno")
+stackOfStrings.push("dos")
+stackOfStrings.push("tres")
+
+var arrayOfStrings = ["uno", "dos", "tres"]
+
+if allItemsMatch(stackOfStrings, arrayOfStrings) {
+    print("All items match.")
+} else {
+    print("Not all items match.")
+}
+
+if stackOfStrings.startsWith("dos") {
+    print("dos로 시작")
+} else {
+    print("아니지롱")
+}
+

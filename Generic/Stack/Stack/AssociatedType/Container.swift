@@ -14,3 +14,17 @@ protocol Container {
     subscript(i: Int) -> Item { get }
     mutating func append(_ item: Item)
 }
+
+extension Container  {
+    func startsWith(_ item: Item) -> Bool where Item: Equatable {
+        return count >= 1 && self[0] == item
+    }
+
+    func average() -> Double where Item == Double {
+        var sum = 0.0
+        for index in 0..<count {
+            sum += self[index]
+        }
+        return sum / Double(count)
+    }
+}
