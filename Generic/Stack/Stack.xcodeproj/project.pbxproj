@@ -10,6 +10,7 @@
 		B51AEBBB2A10E04C00EB9107 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AEBBA2A10E04C00EB9107 /* main.swift */; };
 		B57225E12A12204C0016B69C /* IntStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57225E02A12204C0016B69C /* IntStack.swift */; };
 		B57225E32A1222050016B69C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57225E22A1222050016B69C /* Stack.swift */; };
+		B57225E72A132BBC0016B69C /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57225E62A132BBC0016B69C /* Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		B51AEBBA2A10E04C00EB9107 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B57225E02A12204C0016B69C /* IntStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntStack.swift; sourceTree = "<group>"; };
 		B57225E22A1222050016B69C /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		B57225E62A132BBC0016B69C /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				B51AEBBA2A10E04C00EB9107 /* main.swift */,
 				B57225E42A132AB10016B69C /* GenericType */,
+				B57225E52A132BA00016B69C /* AssociatedType */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -74,6 +77,14 @@
 				B57225E02A12204C0016B69C /* IntStack.swift */,
 			);
 			path = GenericType;
+			sourceTree = "<group>";
+		};
+		B57225E52A132BA00016B69C /* AssociatedType */ = {
+			isa = PBXGroup;
+			children = (
+				B57225E62A132BBC0016B69C /* Container.swift */,
+			);
+			path = AssociatedType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57225E12A12204C0016B69C /* IntStack.swift in Sources */,
+				B57225E72A132BBC0016B69C /* Container.swift in Sources */,
 				B57225E32A1222050016B69C /* Stack.swift in Sources */,
 				B51AEBBB2A10E04C00EB9107 /* main.swift in Sources */,
 			);

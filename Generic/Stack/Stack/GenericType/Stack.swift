@@ -7,8 +7,21 @@
 
 import Foundation
 
-struct Stack<Element: Equatable> {
+struct Stack<Element: Equatable>: Container {
+
+    // MARK: - property
+
     var items: [Element] = []
+
+    var count: Int {
+        return items.count
+    }
+
+    subscript(i: Int) -> Element {
+        return items[i]
+    }
+
+    // MARK: - func
 
     mutating func push(_ item: Element) {
         items.append(item)
@@ -16,6 +29,10 @@ struct Stack<Element: Equatable> {
 
     mutating func pop() -> Element {
         return items.removeLast()
+    }
+
+    mutating func append(_ item: Element) {
+        self.push(item)
     }
 }
 
