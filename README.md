@@ -7,6 +7,7 @@
 
 - [The Basics](https://yoonah-dev.oopy.io/fe99804c-c60e-4024-8e83-5b834302435a) <br>
 - [Basic Operators](https://yoonah-dev.oopy.io/1660b202-1091-4172-81a6-1e19dd2eb376) <br>
+- [Strings and Characters](https://yoonah-dev.oopy.io/0dbe8e3f-24f7-40e1-a412-f47b717869a2) <br>
 - [Protocols(1)](https://yoonah-dev.oopy.io/4e0e037b-1350-4c96-b9e1-65dc03c56447) 
   * Protocol 기본 문법, Delegation, Extension, Inheritance 관련
   * [Snakes and Ladders Game example](https://github.com/YoonAh-dev/The-Swift-Programming-Language-Documents/tree/main/Protocol/SnakesAndLadders.playground) <br><br>
