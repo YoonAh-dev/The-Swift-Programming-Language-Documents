@@ -9,6 +9,8 @@
 - [Basic Operators](https://yoonah-dev.oopy.io/1660b202-1091-4172-81a6-1e19dd2eb376) <br>
 - [Strings and Characters](https://yoonah-dev.oopy.io/0dbe8e3f-24f7-40e1-a412-f47b717869a2) <br>
 - [Collection Types(1) - Array](https://yoonah-dev.oopy.io/f382baa5-32c8-4d6c-a446-91b5b870a283) <br>
+- [Collection Types(2) - Set](https://yoonah-dev.oopy.io/b7ce1280-c0fd-40ad-8ae5-ad54f1946469) <br>
+- [Collection Types(3) - Dictionary](https://yoonah-dev.oopy.io/66620ac8-d64d-4689-88ff-bc4a675f4129) <br>
 
 - [Extensions](https://yoonah-dev.oopy.io/817a777f-b1de-48ce-8126-0f21573fc8fd) <br>
 - [Protocols(1)](https://yoonah-dev.oopy.io/4e0e037b-1350-4c96-b9e1-65dc03c56447) 
