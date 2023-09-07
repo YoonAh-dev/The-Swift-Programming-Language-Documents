@@ -11,7 +11,11 @@
 - [Collection Types(1) - Array](https://yoonah-dev.oopy.io/f382baa5-32c8-4d6c-a446-91b5b870a283) <br>
 - [Collection Types(2) - Set](https://yoonah-dev.oopy.io/b7ce1280-c0fd-40ad-8ae5-ad54f1946469) <br>
 - [Collection Types(3) - Dictionary](https://yoonah-dev.oopy.io/66620ac8-d64d-4689-88ff-bc4a675f4129) <br>
-
+- [Control Flow(1) - Loops](https://yoonah-dev.oopy.io/0091f7f4-7f47-471b-b9ad-6569f8af6568) 
+  * Control Flow에서 `for-in`, `while`, `repeat-while` 관련
+  * [Countdown example - Sequence, IteratorProtocol](https://github.com/YoonAh-dev/The-Swift-Programming-Language-Documents/blob/main/Control-Flow/ControlFlow.playground/Sources/Countdown.swift)
+  * [Snakes and Ladders Game example](https://github.com/YoonAh-dev/The-Swift-Programming-Language-Documents/blob/main/Control-Flow/ControlFlow.playground/Sources/While.swift) <br>
+  
 - [Extensions](https://yoonah-dev.oopy.io/817a777f-b1de-48ce-8126-0f21573fc8fd) <br>
 - [Protocols(1)](https://yoonah-dev.oopy.io/4e0e037b-1350-4c96-b9e1-65dc03c56447) 
   * Protocol 기본 문법, Delegation, Extension, Inheritance 관련
